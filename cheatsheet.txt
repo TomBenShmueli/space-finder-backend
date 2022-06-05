@@ -1,0 +1,9 @@
+-init github and checkout locally.
+- npm init -y
+- npm i -D aws-cdk-lip constructs ts-node typescript
+- cdk.json
+{
+    "app":"npm infrastructure/Launcher.ts"
+}
+- cdk synth - error regardign tsconfig target
+- get ts-config file from other project for safety
