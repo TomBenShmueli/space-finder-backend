@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3e27a27471fc995b47fe551518e31eef643dd8e260c9656c32b874c1458cd72f.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/44ccf0bc8e898c9bfbfdefbe402e94d477b8911df75e542ba6fa53654c2caa5e.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -61,7 +61,7 @@
         "/Space-Finder/SpaceAPI/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SpaceAPIDeployment4ED345176c56e65bd294eeca5c01b90263d90d9c"
+            "data": "SpaceAPIDeployment4ED34517f0367ac7562ff39976896eed3e6680ad"
           }
         ],
         "/Space-Finder/SpaceAPI/DeploymentStage.prod/Resource": [
@@ -100,30 +100,6 @@
             "data": "SpaceAPIHelloGET18D74C94"
           }
         ],
-        "/Space-Finder/SpaceAPI/Default/createItem/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "SpaceAPIcreateItem2C76D57B"
-          }
-        ],
-        "/Space-Finder/SpaceAPI/Default/createItem/GET/ApiPermission.SpaceFinderSpaceAPIF36879F8.GET..createItem": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "SpaceAPIcreateItemGETApiPermissionSpaceFinderSpaceAPIF36879F8GETcreateItem886B86FF"
-          }
-        ],
-        "/Space-Finder/SpaceAPI/Default/createItem/GET/ApiPermission.Test.SpaceFinderSpaceAPIF36879F8.GET..createItem": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "SpaceAPIcreateItemGETApiPermissionTestSpaceFinderSpaceAPIF36879F8GETcreateItem6E06504E"
-          }
-        ],
-        "/Space-Finder/SpaceAPI/Default/createItem/GET/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "SpaceAPIcreateItemGETBC03FAE1"
-          }
-        ],
         "/Space-Finder/SpacesTable": [
           {
             "type": "aws:cdk:hasPhysicalName",
@@ -154,18 +130,6 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "helloLambdaNodeJs14E63891"
-          }
-        ],
-        "/Space-Finder/createItem/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "createItemServiceRole15252115"
-          }
-        ],
-        "/Space-Finder/createItem/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "createItem7A4F27EE"
           }
         ],
         "/Space-Finder/CDKMetadata/Default": [
